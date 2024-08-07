@@ -12,4 +12,4 @@ ido <- seq(as.POSIXct("2022-06-01 00:00:00"),as.POSIXct("2022-08-29 23:30:00"), 
 length(ido)
 nrow(raw)
 ## Grafikus ellenőrzés
-plot(ido, raw[,2], type = "h")
+plot(ido, raw[,2], type = "h",xlab = "", ylab = "Precipitation [mm/30 mins]")
